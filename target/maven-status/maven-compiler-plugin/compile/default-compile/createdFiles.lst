@@ -1,0 +1,4 @@
+com\example\springit\config\SpringProperties.class
+com\example\springit\HomeController.class
+META-INF\spring-configuration-metadata.json
+com\example\springit\config\SpringitApplication.class
