@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "springit",
+      "type": "com.example.springit.config.SpringProperties",
+      "sourceType": "com.example.springit.config.SpringProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "springit.welcomemsg",
+      "type": "java.lang.String",
+      "sourceType": "com.example.springit.config.SpringProperties",
+      "defaultValue": "Hello World"
+    }
+  ],
+  "hints": []
+}
