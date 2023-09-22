@@ -1,8 +1,6 @@
 package com.example.springit.config.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -14,5 +12,8 @@ public class Comment {
     @GeneratedValue
     private Long id;
     private int vote;
+
+    @ManyToOne
+    private Link link;
 
 }
